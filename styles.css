@@ -255,6 +255,7 @@ a:visited {
   left: 80px;
   background-color: white;
   width: 300px;
+  
 }
 
 .schedule div:first-of-type {
@@ -315,7 +316,7 @@ footer .logo-name:first-of-type {
     width: 250px;
     position: relative;
     top: 70px;
-    right: 5px;
+    left: 55px;
   }
 
   .carousel {
@@ -364,7 +365,7 @@ footer .logo-name:first-of-type {
     font-size: 10px;
     width: 250px;
     top: -20px;
-    left: 0px;
+    left: 55px;
   }
 
   .header-3 nav {
@@ -382,6 +383,8 @@ footer .logo-name:first-of-type {
     font-size: 14px;
     width: 250px;
     height: 180px;
+    margin-bottom: 20px;
+    bottom: 20px;
   }
 
   footer {
