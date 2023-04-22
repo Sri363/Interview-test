@@ -1,0 +1,395 @@
+:root {
+  --color-1: #4d4d4d;
+  --color-2: #414f6b;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo-name {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: auto 0;
+  color: var(--color-2);
+  font-weight: bold;
+}
+
+.logo-name:first-of-type {
+  color: var(--color-1);
+}
+
+.logo-name:last-of-type {
+  color: var(--color-2)
+}
+
+nav {
+  display: flex;
+  color: white;
+  width: 300px;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-evenly;
+}
+
+.sec-1 {
+  height: 560px;
+  width: 100%;
+  margin: 0 auto;
+  background: url("Assets/bg/Hero.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  object-fit: fill;
+}
+
+.sec-2 {
+  height: 560px;
+  width: 100%;
+  background: url("Assets/bg/Background2.png");
+  object-fit: cover;
+  aspect-ratio: 4/3;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+}
+
+.nav-link a:link,
+a:visited {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.header-2 {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.txts {
+  height: 100px;
+  position: relative;
+  bottom: 50%;
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+.number {
+  font-size: 80px;
+  font-weight: bold;
+  color: var(--color-2);
+  opacity: 80%;
+}
+
+.history-txt {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--color-2);
+  opacity: 80%;
+
+}
+
+.sec-2-p {
+  font-size: 12px;
+  width: 600px;
+  margin: 0 auto;
+  color: var(--color-2)
+}
+
+.carousel-area {
+  background-color: rgba(71, 61, 139, 0.662);
+  width: 100%;
+  height: 120px;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 680px;
+  height: 120px;
+}
+
+.card {
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+}
+
+.card img {
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+  opacity: 100%;
+}
+
+.sec-3 {
+  height: 560px;
+  width: 100%;
+  background-image: url("Assets/tab 1/photo-1417021423914-070979c8eb34.png");
+  object-fit: cover;
+  aspect-ratio: 4/3;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.bg-txts-2 {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+
+.txts-2 {
+  height: 100px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.txts-2 .number {
+  font-size: 80px;
+  font-weight: bold;
+  color: var(--color-2);
+  opacity: 80%;
+  position: relative;
+  left: 150px;
+}
+
+.climb-txt {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--color-1);
+  opacity: 100%;
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  left: 160px;
+
+}
+
+.sec-3-p {
+  font-size: 12px;
+  width: 500px;
+  margin: 0 auto;
+  color: var(--color-2);
+  position: relative;
+  bottom: 60px;
+  left: 60px;
+
+}
+
+.header-3 {
+  background-color: darkslateblue;
+  width: 100%;
+  height: 35px;
+}
+
+.header-3 nav {
+  height: 35px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 50%;
+  background-color: white;
+  position: relative;
+  left: 30px;
+}
+
+.nav-link-2 {
+  padding: 10px;
+}
+
+a:hover {
+  background-color: white;
+  color: var(--color-2);
+  border-radius: 6px;
+}
+
+.nav-link-2 a:link,
+a:visited {
+  color: var(--color-2);
+  font-weight: bold;
+  padding: 10px;
+}
+
+.schedule {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+  position: relative;
+  top: 100px;
+  left: 80px;
+  background-color: white;
+  width: 300px;
+}
+
+.schedule div:first-of-type {
+  grid-column: 1/-1;
+  align-self: center;
+  font-weight: bold;
+  font-size: 20px;
+  left: 30px;
+  color: darkslateblue;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+  background-color: #483D8B;
+  color: white;
+}
+
+footer .logo-name:first-of-type {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .sec-1,
+  .sec-3 {
+    height: 350px;
+
+  }
+
+  .sec-2 {
+    height: 320px;
+  }
+
+  .txts {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .number {
+    font-size: 30px;
+    position: relative;
+    top: 120px;
+    left: 30px;
+  }
+
+  .history-txt {
+    font-size: 14px;
+    position: relative;
+    top: 110px;
+    left: 30px;
+  }
+
+  .sec-2-p {
+    font-size: 10px;
+    width: 250px;
+    position: relative;
+    top: 70px;
+    right: 5px;
+  }
+
+  .carousel {
+    width: 200px;
+    height: 140px;
+    border: 2px solid white;
+    border-radius: 6px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+
+  .card {
+    scroll-snap-align: center;
+  }
+
+  .bg-txts-2 {
+    height: 70px;
+  }
+
+  .txts-2 {
+    height: 70px;
+  }
+
+  .txts-2 .number {
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+
+  .txts .number {
+    top: 130px;
+  }
+
+  .history-txt {
+    top: 150px;
+    left: 5px;
+  }
+
+  .climb-txt {
+    top: 5px;
+    left: 20px;
+  }
+
+  .sec-3-p {
+    font-size: 10px;
+    width: 250px;
+    top: -20px;
+    left: 0px;
+  }
+
+  .header-3 nav {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .header-3 nav .nav-link-2 {
+    width: 180px;
+    position: relative;
+    left: 80px;
+  }
+
+  .schedule {
+    font-size: 14px;
+    width: 250px;
+    height: 180px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+
+  a:link,
+  a:visited {
+    font-size: 14px;
+  }
+}
